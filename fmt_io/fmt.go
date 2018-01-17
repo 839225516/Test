@@ -23,5 +23,4 @@ func main() {
 	fmt.Printf("Hi,%s %s!\n", firstName, lastName)
 	fmt.Sscanf(input, format, &f, &i, &s)
 	fmt.Println("From the string we read:", f, i, s)
-
 }
